@@ -1,6 +1,9 @@
 <?php
 $banner = file_get_contents('https://pastebin.com/raw/TgDZDAZQ');
 echo $banner;
+echo "\n =============================";
+echo "\n Author : ./Kachang ";
+echo "\n Contact My Facebook : https://facebook.com/Viole403 ";
 echo "\n Your Token : ";
 $token = trim(fgets(STDIN));
 $md5 = md5(time());
